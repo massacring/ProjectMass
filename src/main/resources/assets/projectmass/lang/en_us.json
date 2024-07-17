@@ -1,5 +1,12 @@
 {
-  "item.projectmass.galvanized_square_steel": "Galvanized Square Steel",
+  "item.projectmass.steel_ingot": "Steel Ingot",
+  "item.projectmass.raw_tin": "Raw Tin",
+  "item.projectmass.tin_ingot": "Tin Ingot",
+
+  "block.projectmass.galvanized_square_steel_block": "Galvanized Square Steel",
+  "block.projectmass.tin_ore": "Tin Ore",
+  "block.projectmass.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.projectmass.raw_tin_block": "Raw Tin Block",
 
   "creativetab.project_mass_tab": "Project Mass"
 }

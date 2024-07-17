@@ -1,6 +1,7 @@
 package net.massacring.projectmass;
 
 import com.mojang.logging.LogUtils;
+import net.massacring.projectmass.blocks.ModBlocks;
 import net.massacring.projectmass.items.ModCreativeModeTabs;
 import net.massacring.projectmass.items.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,7 @@ public class ProjectMass {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

@@ -11,7 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ProjectMass.MOD_ID);
 
-    public static final RegistryObject<Item> GALVANIZED_SQUARE_STEEL = ITEMS.register("galvanized_square_steel",
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus event) {

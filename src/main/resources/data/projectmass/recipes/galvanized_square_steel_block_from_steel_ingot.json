@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+      "#": {
+        "item": "projectmass:steel_ingot"
+      }
+    },
+  "result": {
+    "item": "projectmass:galvanized_square_steel_block"
+  }
+}
