@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STEEL_INGOT.get());
                         pOutput.accept(ModItems.RAW_TIN.get());
                         pOutput.accept(ModItems.TIN_INGOT.get());
+                        pOutput.accept(ModItems.PRIMITIVE_BLASTER.get());
 
                         pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.TIN_ORE.get());

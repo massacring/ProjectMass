@@ -1,6 +1,7 @@
 package net.massacring.projectmass.items;
 
 import net.massacring.projectmass.ProjectMass;
+import net.massacring.projectmass.items.custom.BlasterGun;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PRIMITIVE_BLASTER = ITEMS.register("primitive_blaster",
+            () -> new BlasterGun(new Item.Properties()));
 
     public static void register(IEventBus event) {
         ITEMS.register(event);
