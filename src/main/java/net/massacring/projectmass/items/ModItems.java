@@ -18,8 +18,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PRIMITIVE_BLASTER = ITEMS.register("primitive_blaster",
-            () -> new BlasterGun(new Item.Properties()));
+            () -> new BlasterGun(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus event) {
         ITEMS.register(event);

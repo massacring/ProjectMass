@@ -25,12 +25,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.RAW_TIN_BLOCK.get());
-        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.get());
 
         this.add(ModBlocks.TIN_ORE.get(),
                 block -> createTinOreDrops(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         this.add(ModBlocks.DEEPSLATE_TIN_ORE.get(),
                 block -> createTinOreDrops(ModBlocks.DEEPSLATE_TIN_ORE.get(), ModItems.RAW_TIN.get()));
+
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_BUTTON.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_FENCE.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_WALL.get());
+        this.dropSelf(ModBlocks.GALVANIZED_SQUARE_STEEL_TRAPDOOR.get());
+
+        this.add(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB.get()));
+        this.add(ModBlocks.GALVANIZED_SQUARE_STEEL_DOOR.get(),
+                block -> createDoorTable(ModBlocks.GALVANIZED_SQUARE_STEEL_DOOR.get()));
     }
 
     protected LootTable.Builder createTinOreDrops(Block pBlock, Item item) {

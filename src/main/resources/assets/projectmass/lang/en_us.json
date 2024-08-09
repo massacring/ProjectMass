@@ -2,11 +2,22 @@
   "item.projectmass.steel_ingot": "Steel Ingot",
   "item.projectmass.raw_tin": "Raw Tin",
   "item.projectmass.tin_ingot": "Tin Ingot",
+  "item.projectmass.primitive_blaster": "Primitive Blaster",
 
-  "block.projectmass.galvanized_square_steel_block": "Galvanized Square Steel",
   "block.projectmass.tin_ore": "Tin Ore",
   "block.projectmass.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.projectmass.raw_tin_block": "Raw Tin Block",
+
+  "block.projectmass.galvanized_square_steel_block": "Galvanized Square Steel",
+  "block.projectmass.galvanized_square_steel_stairs": "Galvanized Square Steel Stairs",
+  "block.projectmass.galvanized_square_steel_slab": "Galvanized Square Steel Slab",
+  "block.projectmass.galvanized_square_steel_button": "Galvanized Square Steel Button",
+  "block.projectmass.galvanized_square_steel_pressure_plate": "Galvanized Square Steel Pressure Plate",
+  "block.projectmass.galvanized_square_steel_fence": "Galvanized Square Steel Fence",
+  "block.projectmass.galvanized_square_steel_fence_gate": "Galvanized Square Steel Fence Gate",
+  "block.projectmass.galvanized_square_steel_wall": "Galvanized Square Steel Wall",
+  "block.projectmass.galvanized_square_steel_door": "Galvanized Square Steel Door",
+  "block.projectmass.galvanized_square_steel_trapdoor": "Galvanized Square Steel Trapdoor",
 
   "creativetab.project_mass_tab": "Project Mass"
 }

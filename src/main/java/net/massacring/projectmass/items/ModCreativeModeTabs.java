@@ -23,10 +23,20 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TIN_INGOT.get());
                         pOutput.accept(ModItems.PRIMITIVE_BLASTER.get());
 
-                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.TIN_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
                         pOutput.accept(ModBlocks.RAW_TIN_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_BUTTON.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_FENCE.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_WALL.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_DOOR.get());
+                        pOutput.accept(ModBlocks.GALVANIZED_SQUARE_STEEL_TRAPDOOR.get());
                     })
                     .build());
 

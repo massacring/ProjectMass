@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.massacring.projectmass.blocks.ModBlocks;
 import net.massacring.projectmass.items.ModCreativeModeTabs;
 import net.massacring.projectmass.items.ModItems;
+import net.massacring.projectmass.loot.ModLootModifiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -32,6 +33,8 @@ public class ProjectMass {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
